@@ -1,0 +1,44 @@
+{
+  "name": "grunt-jsdoc-docset",
+  "description": "Generates a docSet from JSDoc documentation",
+  "version": "0.1.0",
+  "homepage": "https://github.com/theasta/grunt-jsdoc-docset",
+  "author": {
+    "name": "Alexandrine Boissiere",
+    "email": "theasta@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/theasta/grunt-jsdoc-docset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theasta/grunt-jsdoc-docset/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/theasta/grunt-jsdoc-docset/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {},
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "jsdoc",
+    "jsdoc3",
+    "docset",
+    "dash"
+  ],
+  "dependencies": {
+    "jsdoc-docset-generator": "0.0.2"
+  }
+}
