@@ -1,39 +1,4 @@
-# grunt-jsdoc-docset
+# [DEPRECATED] grunt-jsdoc-docset
 
-> Generates a docSet from JSDoc documentation
+> This grunt plugin is deprecated. Use instead grunt-jsdoc@1.1.0 or higher and the [jsdoc-dash-template template](https://github.com/theasta/jsdoc-dash-template) to generate a [dash](https://kapeli.com/dash) compatible docSet instead.
 
-## Getting Started
-This plugin requires Grunt `~0.4.5`
-
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
-
-```shell
-npm install grunt-jsdoc-docset --save-dev
-```
-
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-
-```js
-grunt.loadNpmTasks('grunt-jsdoc-docset');
-```
-
-## The "jsdoc_docset" task
-
-### Overview
-In your project's Gruntfile, add a section named `jsdoc_docset` to the data object passed into `grunt.initConfig()`.
-
-```js
-grunt.initConfig({
-  jsdoc_docset: {
-    options: {
-      // Task-specific options go here.
-    },
-    your_target: {
-      // Target-specific file lists and/or options go here.
-    },
-  },
-});
-```
-
-## Release History
-_(Nothing yet)_
