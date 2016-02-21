@@ -1,7 +1,7 @@
 {
   "name": "grunt-jsdoc-docset",
   "description": "Generates a docSet from JSDoc documentation",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/theasta/grunt-jsdoc-docset",
   "author": {
     "name": "Alexandrine Boissiere",
